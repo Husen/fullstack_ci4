@@ -1,0 +1,17 @@
+cara menjalankan project react-js tanpa install dari awal
+1. copy semua file dan folder yang ada pada project tersebut kecuali folder node_modules
+2. paste di suatu folder yang anda inginkan
+3. buka cmd dengan directory folder yang terdapat project react-js
+4. jalankan perintah " npm i " lalu run
+5. coba jalankan perintah npm start
+6. done
+
+cara menangani codeigniter 4 bagian backend dengan cors
+1. jalankan perintah php spark make:filter Cors
+2. buka file cors di dalam folder App/Filter
+3. configurasi header : Access-Allow-Origin
+4. buka file filter di dalam folder App/config
+5. jalankan cors dan panggil pada method globals
+6. buka file routes yang ada pada folder App/config
+7. ubah route menjadi resource dengan alamat controller yang akan digunakan
+8. tambahkan $routes->setAutoRoute(true); pada Router Setup
